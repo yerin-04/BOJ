@@ -16,7 +16,7 @@ public class boj_1157 {
 		}
 		
 		int max = -1;
-		char ch = '?';
+		char ch = '?'; //초기화 필요
 		
 		for(int k = 0; k < 26; k++) {
 			if(arr[k] > max) {

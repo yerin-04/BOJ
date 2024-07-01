@@ -9,7 +9,7 @@ public class boj_2765 {
 			double distance = 0;
 			double mph = 0;
 			
-			double d = sc.nextDouble();
+			double d = sc.nextDouble(); 
 			int turn = sc.nextInt();
 			double h = sc.nextDouble();
 			

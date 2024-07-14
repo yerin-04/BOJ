@@ -13,13 +13,7 @@ public class boj_2997 {
 		for(int i = 0; i < 3; i++) 
 			arr[i] = sc.nextInt();
 		
-		for(int i = 0; i < 3; i++) 
-			System.out.println("arr[" + i + "] = " + arr[i]);
-		
 		Arrays.sort(arr);
-		
-		for(int i = 0; i < 3; i++) 
-			System.out.println("arr[" + i + "] = " + arr[i]);
 		
 		int n = arr[1] - arr[0];
 		int n2 = arr[2] - arr[1];
